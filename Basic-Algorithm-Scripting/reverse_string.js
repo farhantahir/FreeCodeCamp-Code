@@ -1,3 +1,9 @@
+/**
+ * @author Farhan Tahir <mf.tahir@outlook.com>
+ * @param str
+ * @returns {string|*}
+ * @description Reverse a String, freecodecamp basic algorithm challenge
+ */
 /*
  Reverse the provided string.
 
