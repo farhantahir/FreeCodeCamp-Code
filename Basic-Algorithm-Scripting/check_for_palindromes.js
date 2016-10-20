@@ -1,7 +1,7 @@
 /**
  * @author Farhan Tahir <mf.tahir@outlook.com>
- * @param num
- * @returns {number}
+ * @param str
+ * @returns {boolean}
  * @description Check for Palindromes, freecodecamp basic algorithm challenge
  */
 /*
@@ -17,6 +17,7 @@
  We'll also pass strings with special symbols, such as "2A3*3a2", "2A3 3a2", and "2_A3*3#A2".
  Remember to use Read-Search-Ask if you get stuck. Write your own code.
  */
+
 function palindrome(str) {
     str = str.replace(/[^a-zA-Z0-9]/g,"").toLowerCase();
     var left=0, right=str.length -1;
